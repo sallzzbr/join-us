@@ -1,5 +1,5 @@
 <template>
-    <div class="fixed-top">
+    <div class="my-nav">
         <b-nav>
             <b-container fluid>
                 <b-row class="custom-nav">
@@ -61,7 +61,7 @@ export default {
     border-bottom: 1px solid #CCCCCC;
 }
 
-.fixed-top a {
+.my-nav a {
     color: #686868;
 }
 
