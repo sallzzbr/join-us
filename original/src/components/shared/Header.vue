@@ -3,16 +3,16 @@
         <b-nav>
             <b-container fluid>
                 <b-row class="custom-nav">
-                    <img src="../assets/logo.svg" class="mx-auto d-block" alt="original.io logo">
+                    <img src="../../assets/logo.svg" class="mx-auto d-block" alt="original.io logo">
                 </b-row>
                 <b-row class="nav-itens">
-                    <b-col cols="6" md="3" class="order-2 order-md-1">
+                    <b-col cols="6" md="3" lg="2" class="order-2 order-md-1">
                         <b-row class="login">
                             <b-col cols="5"><a href="#">Entrar</a></b-col>
                             <b-col cols="7" class="signup"><a href="#">Cadastrar-se</a></b-col>
                         </b-row>
                     </b-col>
-                    <b-col cols="12" md="4" offset-md="1" class="order-1 order-md-2 pb-4 pb-md-0">
+                    <b-col cols="12" md="4" offset-md="1" offset-lg="2" class="order-1 order-md-2 pb-4 pb-md-0">
                         <b-row>
                             <b-col cols="3"><a href="#">Sapatos</a></b-col>
                             <b-col cols="3"><a href="#">Bolsas</a></b-col>
@@ -20,13 +20,13 @@
                             <b-col cols="3"><a href="#">Off</a></b-col>
                         </b-row>
                     </b-col>
-                    <b-col cols="6" md="3" class="ml-auto order-3">
+                    <b-col cols="6" md="3" lg="2" class="ml-auto order-3">
                         <b-row>
                             <b-col cols="7" sm="6"><input placeholder="Busca"></input></b-col>
                             <b-col cols="5" sm="6">
                                 <b-row>
                                     <b-col cols="6" class="pr-0">
-                                        <img src="../assets/checkout.svg" class="mx-auto d-block" alt="checkout icon">
+                                        <img src="../../assets/checkout.svg" class="mx-auto d-block" alt="checkout icon">
                                     </b-col>
                                     <b-col cols="6" class="pl-0">
                                         <p class="text-left">0</p>   
@@ -79,7 +79,7 @@ input {
     border: 0;
     outline: 0;
     border-bottom: 1px solid #c1c1c1;
-    background: url(../assets/Union.svg) no-repeat scroll 4px 4px;
+    background: url(../../assets/Union.svg) no-repeat scroll 4px 4px;
     padding-left:30px;
 }
 </style>
