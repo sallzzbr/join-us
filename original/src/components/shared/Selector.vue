@@ -18,19 +18,19 @@
                         </b-col>
                         <b-col cols="12" class="mt-3">
                             <span class="code">Cor:</span>
-                            <span class="selected-color"> (Fucsia) </span>
+                            <span class="selected-color"> ({{selectedColor}}) </span>
                         </b-col>
                         <b-col cols="12" class="mt-2">
-                            <button class="color-pick color-fucsia mr-2"></button>
-                            <button class="color-pick color-blue mx-2"></button>
-                            <button class="color-pick color-brown mx-2"></button>
-                            <button class="color-pick color-black ml-2"></button>
+                            <button v-on:click="selectedColor='Fucsia'" class="color-pick color-fucsia mr-2"></button>
+                            <button v-on:click="selectedColor='Azul'" class="color-pick color-blue mx-2"></button>
+                            <button v-on:click="selectedColor='Marrom'" class="color-pick color-brown mx-2"></button>
+                            <button v-on:click="selectedColor='Preto'" class="color-pick color-black ml-2"></button>
                         </b-col>
                         <b-col cols="12" class="mt-3">
                             <b-row>
                                 <b-col cols="7">
                                     <span class="code">Tamanho:</span>
-                                    <span class="selected-size"> (37) </span>  
+                                    <span class="selected-size"> ({{selectedSize}}) </span>  
                                 </b-col>
                                 <b-col cols="4">
                                     <a href="#" class="guide">Guia de medidas</a>
@@ -40,34 +40,34 @@
                         <b-col cols="12" class="mt-3 size-buttons">
                             <b-row>
                                 <b-col cols="1">
-                                    <button>33</button>  
+                                    <button v-on:click="selectedSize='33'">33</button>  
                                 </b-col>
                                 <b-col cols="1">
-                                    <button>34</button>  
+                                    <button v-on:click="selectedSize='34'">34</button>  
                                 </b-col>
                                 <b-col cols="1">
-                                    <button>35</button>  
+                                    <button v-on:click="selectedSize='35'">35</button>  
                                 </b-col>
                                 <b-col cols="1">
-                                    <button>36</button>  
+                                    <button v-on:click="selectedSize='36'">36</button>  
                                 </b-col>
                                 <b-col cols="1">
-                                    <button>37</button>  
+                                    <button v-on:click="selectedSize='37'">37</button>  
                                 </b-col>
                                 <b-col cols="1">
-                                    <button>38</button>  
+                                    <button v-on:click="selectedSize='38'">38</button>  
                                 </b-col>
                                 <b-col cols="1">
-                                    <button>39</button>  
+                                    <button v-on:click="selectedSize='39'">39</button>  
                                 </b-col>
                                 <b-col cols="1">
-                                    <button>40</button>  
+                                    <button v-on:click="selectedSize='40'">40</button>  
                                 </b-col>
                                 <b-col cols="1">
-                                    <button>41</button>  
+                                    <button v-on:click="selectedSize='41'">41</button>  
                                 </b-col>
                                 <b-col cols="1">
-                                    <button>42</button>  
+                                    <button v-on:click="selectedSize='42'">42</button>  
                                 </b-col>
                             </b-row>
                         </b-col>
@@ -87,7 +87,16 @@
 
 <script>
 export default {
-  name: 'Selector'
+  name: 'Selector',
+  data () {
+    return {
+       selectedColor: "Selecione uma cor",
+       selectedSize: "Selecione um tamanho"
+    }
+  },
+  methods: {
+      
+  }
 }
 </script>
 
@@ -123,7 +132,7 @@ h3 {
 }
 
 .selected-color  {
-   color: #A9095E;
+   color: #5F75AA;
 }
 
 .color-pick {

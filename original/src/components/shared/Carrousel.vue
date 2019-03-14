@@ -11,9 +11,9 @@
                         </b-col> 
                         <b-col cols="1" sm="12" class="my-3 chevrons d-none d-sm-block"><a href="#"><font-awesome-icon icon="chevron-up" /></a></b-col>
                         <b-col cols="3" sm="12" class="mb-2"><a href="#"><img src="../../assets/sandalias.png"></a></b-col>
-                        <b-col cols="3" sm="12" class="mb-2"><a href="#"><img src="../../assets/sandalias.png"></a></b-col>
-                        <b-col cols="3" sm="12" class="mb-2"><a href="#"><img src="../../assets/sandalias.png"></a></b-col>
-                        <b-col cols="3" sm="12" class="mb-2"><a href="#"><img src="../../assets/sandalias.png"></a></b-col>
+                        <b-col cols="3" sm="12" class="mb-2 not-selected"><a href="#"><img src="../../assets/sandalias.png"></a></b-col>
+                        <b-col cols="3" sm="12" class="mb-2 not-selected"><a href="#"><img src="../../assets/sandalias.png"></a></b-col>
+                        <b-col cols="3" sm="12" class="mb-2 not-selected"><a href="#"><img src="../../assets/sandalias.png"></a></b-col>
                         <b-col cols="1" sm="12" class="my-3 chevrons d-none d-sm-block"><a href="#"><font-awesome-icon icon="chevron-down" /></a></b-col>
                     </b-row>
                 </b-col>
@@ -52,6 +52,10 @@ h6 {
 
 .sidebar img {
     width: 50%;
+}
+
+.not-selected img {
+    filter:opacity(40%);
 }
 
 @media only screen and (max-width: 768px) {
