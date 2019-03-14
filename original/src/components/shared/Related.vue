@@ -1,5 +1,5 @@
 <template>
-  <container fluid> 
+  <b-container fluid> 
     <b-row>
         <b-col class="text-center who-saw"> 
             <p>Quem viu viu também</p>
@@ -117,7 +117,7 @@
         </b-col>
 
     </b-row> 
-  </container fluid>
+  </b-container fluid>
 </template>
 
 <script>
@@ -134,10 +134,6 @@ export default {
     font-size: 26px;
     text-transform: uppercase;
     color: #DE8F75;
-}
-
-.related-searches {
-    width: 95%
 }
 
 .related-searches img{

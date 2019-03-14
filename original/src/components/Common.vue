@@ -1,5 +1,5 @@
 <template>
-  <container fluid>
+  <b-container fluid>
     <Breadcrumb/>
     <b-row>
         <b-col cols="12" md="6">
@@ -14,7 +14,7 @@
             <related/>
         </b-col> 
     </b-row>
-  </container fluid>
+  </b-container fluid>
 </template>
 
 <script>

@@ -56,12 +56,12 @@
                         <h5>assine nossa news</h5>
                         <form>
                             <div class="news-form">
-                                <input type="text" id="name" name="name" class="form-input mt-4" value="Renata">
-                                <label for="name" class="forms-placeholder">Nome</label>
+                                <input v-model="formName" v-on:change="nameInput()" type="text" id="name" name="name" class="form-input mt-4">
+                                <label for="name" class="forms-placeholder" v-bind:class="{ filled: nameisActive}">Nome</label>
                             </div>
                             <div class="news-form">
-                                <input type="text" id="email" name="email" class="form-input mt-4">
-                                <label for="email" class="forms-placeholder">E-mail</label>
+                                <input v-model="formEmail" v-on:change="emailInput()" type="text" id="email" name="email" class="form-input mt-4">
+                                <label for="email" class="forms-placeholder" v-bind:class="{ filled: emailisActive}">E-mail</label>
                             </div>
                             <div>
                                 <input type="submit" value="Enviar" class="news-button mt-4">
@@ -88,7 +88,31 @@
 
 <script>
 export default {
-  name: 'Footer'
+  name: 'Footer',
+  data () {
+    return {
+        nameisActive: true,
+        emailisActive: false,
+        formName: "Renata",
+        formEmail: "",
+    }
+  },
+  methods: {
+      nameInput(){
+          if(this.formName == ""){
+              this.nameisActive = false;
+          } else {
+              this.nameisActive = true;
+          }
+      },
+      emailInput() {
+          if(this.formEmail == ""){
+              this.emailisActive = false;
+          } else {
+              this.emailisActive = true;
+          }
+      }    
+  }
 }
 </script>
 
@@ -166,8 +190,9 @@ input {
 }
 
 .form-input:focus + .forms-placeholder, .filled {
-  font-size: 75%;
-  transform: translate3d(0, -100%, 0);
+  font-size: 12px;
+  color: rgba(32, 32, 32, 0.5);
+  transform: translate3d(-11px, -70%, 0);
   opacity: 1;
 }
 
