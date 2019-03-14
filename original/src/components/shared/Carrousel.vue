@@ -42,7 +42,7 @@ h6 {
     color: #5F75AA;
     border: 2px solid #5F75AA;
     border-radius: 25px;
-    padding: 5px 7px;
+    padding: 4px 7px;
 }
 
 .chevrons a {
