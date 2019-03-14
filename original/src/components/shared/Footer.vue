@@ -21,10 +21,10 @@
                     <b-col cols="12" sm="3" class="mt-4">
                         <b-row>
                             <b-col cols="12" sm="5" offset-sm="2">
-                                <img src="../../assets/vtex-pci-200.png" class="" alt="original.io logo">
+                                <img src="../../assets/vtex-pci-200.png" class="" alt="vtex pci">
                             </b-col> 
                             <b-col cols="12" sm="3">
-                                <img src="../../assets/selo-ebit.png" class="" alt="original.io logo">
+                                <img src="../../assets/selo-ebit.png" class="" alt="selo ebit">
                             </b-col> 
                         </b-row>
                     </b-col> 

@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faPlay, faChevronUp, faChevronDown, faPlus, faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons'
 import VueRouter from 'vue-router'
 import router from './router/index.js'
+import './assets/scss/main.scss';
 
 library.add(faPlay)
 library.add(faChevronUp)

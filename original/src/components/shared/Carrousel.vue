@@ -10,15 +10,15 @@
                             </b-row>
                         </b-col> 
                         <b-col cols="1" sm="12" class="my-3 chevrons d-none d-sm-block"><a href="#"><font-awesome-icon icon="chevron-up" /></a></b-col>
-                        <b-col cols="3" sm="12" class="mb-2"><a href="#"><img src="../../assets/sandalias.png"></a></b-col>
-                        <b-col cols="3" sm="12" class="mb-2 not-selected"><a href="#"><img src="../../assets/sandalias.png"></a></b-col>
-                        <b-col cols="3" sm="12" class="mb-2 not-selected"><a href="#"><img src="../../assets/sandalias.png"></a></b-col>
-                        <b-col cols="3" sm="12" class="mb-2 not-selected"><a href="#"><img src="../../assets/sandalias.png"></a></b-col>
+                        <b-col cols="3" sm="12" class="mb-2"><a href="#"><img src="../../assets/sandalias.png" alt="sandalias"></a></b-col>
+                        <b-col cols="3" sm="12" class="mb-2 not-selected"><a href="#"><img src="../../assets/sandalias.png" alt="sandalias"></a></b-col>
+                        <b-col cols="3" sm="12" class="mb-2 not-selected"><a href="#"><img src="../../assets/sandalias.png" alt="sandalias"></a></b-col>
+                        <b-col cols="3" sm="12" class="mb-2 not-selected"><a href="#"><img src="../../assets/sandalias.png" alt="sandalias"></a></b-col>
                         <b-col cols="1" sm="12" class="my-3 chevrons d-none d-sm-block"><a href="#"><font-awesome-icon icon="chevron-down" /></a></b-col>
                     </b-row>
                 </b-col>
                 <b-col cols="12" sm="8" class="order-1 order-sm-2">
-                    <img src="../../assets/sandalias.png">
+                    <img src="../../assets/sandalias.png" alt="sandalias">
                 </b-col>             
             </b-row>
         </b-container fluid>

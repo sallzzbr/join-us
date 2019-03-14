@@ -9,7 +9,7 @@
         <b-col cols="12" sm="3"> 
             <b-row>
                 <b-col cols="12"> 
-                    <img src="../../assets/bolsa.png"> 
+                    <img src="../../assets/bolsa.png" alt="bolsa"> 
                     <a href="#" class="add"> 
                         <font-awesome-icon icon="plus" /> 
                     </a>
@@ -34,7 +34,7 @@
         <b-col cols="12" sm="3"> 
             <b-row>
                 <b-col cols="12"> 
-                   <img src="../../assets/sandaliasfeias.png">  
+                   <img src="../../assets/sandaliasfeias.png" alt="sandalias">  
                    <a href="#" class="add"> 
                         <font-awesome-icon icon="plus" /> 
                     </a>
@@ -59,7 +59,7 @@
         <b-col cols="12" sm="3"> 
             <b-row>
                 <b-col cols="12"> 
-                   <img src="../../assets/sandalias.png">
+                   <img src="../../assets/sandalias.png" alt="sandalias">
                    <a href="#" class="add"> 
                         <font-awesome-icon icon="plus" /> 
                     </a>  
@@ -74,7 +74,7 @@
         <b-col cols="12" sm="3"> 
             <b-row>
                 <b-col cols="12"> 
-                   <img src="../../assets/bolsas.png"> 
+                   <img src="../../assets/bolsas.png" alt="bolsas"> 
                    <a href="#" class="add"> 
                         <font-awesome-icon icon="plus" /> 
                     </a> 
