@@ -19,7 +19,7 @@
                 <b-col cols="4" class="price"> 
                     <p>R&#36; 204,90</P>
                 </b-col> 
-                <b-col cols="4" class="ml-auto mt-1"> 
+                <b-col cols="5" sm="4" class="ml-auto mt-1"> 
                     <b-row>
                         <b-col cols="12">
                             <span class="circle-color fucsia"> </span> 
@@ -44,7 +44,7 @@
                 <b-col cols="4" class="price"> 
                     <p>R&#36; 204,90</P>
                 </b-col> 
-                <b-col cols="4" class="ml-auto mt-1"> 
+                <b-col cols="5" sm="4" class="ml-auto mt-1"> 
                     <b-row>
                         <b-col cols="12">
                             <span class="circle-color fucsia"> </span> 
@@ -99,7 +99,7 @@
     <b-row>
         <b-col cols="12" sm="2" class="mx-sm-auto">
             <b-row>
-                <b-col cols="3">
+                <b-col cols="2" sm="3" class="ml-auto">
                     <a href="#" class="pagination"> 
                         <font-awesome-icon icon="chevron-left" /> 
                     </a> 
@@ -107,7 +107,7 @@
                 <b-col cols="6" class="text-center mt-1">
                     <p class="pagination-show">1 de 10</p> 
                 </b-col>
-                <b-col cols="3">
+                <b-col cols="1" sm="3" class="mr-auto">
                     <a href="#" class="pagination"> 
                         <font-awesome-icon icon="chevron-right" class="ml-1"/> 
                     </a> 
@@ -187,7 +187,10 @@ export default {
 .pagination {
     border: 2px solid #2A5A75;
     border-radius: 50%;
-    padding: 5px 11px 5px 5px
+    padding: 7px 11px 5px 8px;
+    position: relative;
+    width: 35px;
+    height: 35px;
 }
 
 .pagination svg{
