@@ -127,6 +127,8 @@ h3 {
 }
 
 .color-pick {
+    max-width: 100%;
+    max-height: 100%;
     width: 22px;
     height: 22px;
     border-radius: 25px;
