@@ -9,6 +9,11 @@
             <Selector/>
         </b-col>
     </b-row>
+    <b-row class="mt-5">
+        <b-col cols="12" class="mt-3"> 
+            <related/>
+        </b-col> 
+    </b-row>
   </container fluid>
 </template>
 
@@ -16,13 +21,15 @@
 import Breadcrumb from './shared/Breadcrumb.vue'
 import Carrousel from './shared/Carrousel.vue'
 import Selector from './shared/Selector.vue'
+import Related from './shared/Related.vue'
 
 export default {
   name: 'Common',
   components: {
     Breadcrumb,
     Carrousel,
-    Selector
+    Selector,
+    Related
   }
 }
 </script>

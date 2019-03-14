@@ -3,13 +3,16 @@ import App from './App.vue'
 import BootstrapVue from 'bootstrap-vue'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faPlay, faChevronUp, faChevronDown } from '@fortawesome/free-solid-svg-icons'
+import { faPlay, faChevronUp, faChevronDown, faPlus, faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons'
 import VueRouter from 'vue-router'
 import router from './router/index.js'
 
 library.add(faPlay)
 library.add(faChevronUp)
 library.add(faChevronDown)
+library.add(faChevronLeft)
+library.add(faChevronRight)
+library.add(faPlus)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
